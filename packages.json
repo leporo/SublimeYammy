@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "Yammy Syntax Highlighting",
+			"description": "Highlighting definitions for Yammy (https://bitbucket.org/quasinerd/yammy) template syntax.",
+			"author": "Vlad Glushchuk",
+			"homepage": "https://github.com/leporo/SublimeYammy",
+			"last_modified": "2012-08-22 11:06:12",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.0",
+						"url": "https://nodeload.github.com/leporo/SublimeYammy/zipball/v1_0_0"
+					}
+				]
+			}
+		}
+	]
+}
