@@ -15,7 +15,7 @@ To access the console press CTRL + `
 Known bugs
 ----------
 
-Add a single line starting with the '#' character below the 'style' and 'script' to "close" the embedded syntax block.
+Add a single line starting with the '#' character below the 'style' and 'script' to close the embedded syntax block.
 
 		head
 			script

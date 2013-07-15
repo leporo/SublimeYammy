@@ -6,12 +6,12 @@
 			"description": "Highlighting definitions for Yammy (https://bitbucket.org/quasinerd/yammy) template syntax.",
 			"author": "Vlad Glushchuk",
 			"homepage": "https://github.com/leporo/SublimeYammy",
-			"last_modified": "2012-08-22 11:06:12",
+			"last_modified": "2013-07-15 13:52:38",
 			"platforms": {
 				"*": [
 					{
-						"version": "1.0.0",
-						"url": "https://nodeload.github.com/leporo/SublimeYammy/zipball/v1_0_0"
+						"version": "1.1",
+						"url": "https://nodeload.github.com/leporo/SublimeYammy/zipball/v1_1"
 					}
 				]
 			}

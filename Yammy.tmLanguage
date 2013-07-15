@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -28,7 +28,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>^\S</string>
+					<string>^(\1)(\S)</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -71,15 +71,15 @@
 			<key>comment</key>
 			<string>HTML Tag</string>
 			<key>match</key>
-			<string>^\s*[a-z]?[a-z0-9]+</string>
+			<string>^\s*[a-z0-9:]++</string>
 			<key>name</key>
-			<string>entity.name.tag.html</string>
+			<string>keyword.markup.element-name</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*-\s*[a-zA-Z-_0-9]+</string>
 			<key>name</key>
-			<string>entity.other.attribute-name.html</string>
+			<string>keyword.markup.attribute-name</string>
 		</dict>
 		<dict>
 			<key>match</key>

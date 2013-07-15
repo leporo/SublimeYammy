@@ -7,7 +7,7 @@
       "patterns": [
         {
           "begin": "^(\\s*)(script)(\\s+\\S*)*",
-          "end": "^\\S",
+          "end": "^(\\1)(\\S)",
           "captures": {
             "2": {
               "name": "entity.name.tag.style.html"
@@ -41,12 +41,12 @@
       ]
     },
     {
-      "name": "entity.name.tag.html",
-      "match": "^\\s*[a-z]?[a-z0-9]+",
+      "name": "keyword.markup.element-name",
+      "match": "^\\s*[a-z0-9:]++",
       "comment": "HTML Tag"
     },
     {
-      "name": "entity.other.attribute-name.html",
+      "name": "keyword.markup.attribute-name",
       "match": "^\\s*-\\s*[a-zA-Z-_0-9]+"
     },
     {
